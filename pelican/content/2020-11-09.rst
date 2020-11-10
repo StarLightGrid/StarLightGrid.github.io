@@ -1,0 +1,80 @@
+
+Thoughts about Starlight Grid
+#############################
+
+:date: 2020-11-09 22:00
+:tags: predesign
+:category: Blog
+:authors: Steven Black
+:summary: Some early ideas about the project.
+
+We are still in the early stages of this product. Design is active and
+ongoing.
+
+A core notion of the product is that it gamifies your own writing world.
+The way I see this happening is by integrating outline features in to
+the software in new and different ways. One way this can play out is
+through a user interface that is interesting to live stream.
+
+I had decided on writing the application in Python 3 with wxWidgets,
+and I went to the wxWidgets site to find... Looky there, an authoring
+application in wxWidgets. That's certainly enough to make me feel
+confident about my choice of library.
+
+This means that the initial release of the application will be a
+cross-platform desktop application. (Linux, macOS, and Windows -- and
+all with native user interfaces.) I'd like to have a decent mobile
+application as well, but that's really only as an aid to the features
+that make most sense in a desktop application.
+
+The software is going to written with a library + front-end design.
+The library is focused on functional code that can be used either in
+front-end applications or on a (later) web-based backend. (I'd like to
+have a text-based front-end as well as the GUI one, but that's a very
+low priority when some of what I want can not happen in text mode.)
+
+There will be definitely be a server at some point. Initially the
+server will lean on social features that facilitate gamefication.
+
+When it comes to word count, both in terms of words per minute as well
+as progress, we go with personalized settings based upon individual
+user's speed and goals. You need to be able to compare meaningfully with
+people of radically different speeds.
+
+The software is going to be written with an open-source design. It
+will follow the Wordpress model where there is additional material and
+service if you pay for an account, but the software itself is free.
+
+How does this work? Well, there's ease of integration with other users,
+but turning it in to a game may involve ambient sound tracks, sound
+effects, and some SVG graphics. All of these will require licensing,
+which means we need to be paid so we can pass on the money.
+
+I want gamification of writing to result in a writing experience that is
+both fun as well as interesting when streamed. This is definitely a high
+priority feature and if we can't get this, then it reduces the value of
+the whole thing.
+
+Gamification of the outline process, both before writing and after the
+first draft, seems like an under-utilized feature. Consider that there
+is a whole subgame in something like The Sims which is about character
+generation and design and... Things can be gamified in a "paper doll"
+manner pretty easily.
+
+There is a whole subsection of games that lean on randomization and
+letting the system make as many choices as possible. They're more
+passive, if not completely passive. This aspect of gamification
+should be available as much as possible, too.
+
+This opens up the possibilty that there could, in fact, be a mode where
+you need to race the computer and if you are too slow, it selects words
+for you. Ideally, this would incude character-specific predective text.
+
+A fully gamified experience would have the system walk you through
+writing a book. Gently prodding and inspiring the next scene and chapter
+to unfold. It would literally be a game that also involved writing
+a book. It would also (eventually) be possible to have a hands-free
+version of the game that used speech technologies with questions,
+answers, and piecing paragraphs and scenes together.
+
+
